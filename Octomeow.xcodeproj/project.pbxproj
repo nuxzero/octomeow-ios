@@ -15,6 +15,10 @@
 		D356508120C5991D00158298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356507F20C5991D00158298 /* LaunchScreen.storyboard */; };
 		D356508C20C5991D00158298 /* OctomeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356508B20C5991D00158298 /* OctomeowTests.swift */; };
 		D356509720C5991D00158298 /* OctomeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356509620C5991D00158298 /* OctomeowUITests.swift */; };
+		D35650D120C59AA100158298 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35650CE20C59A7300158298 /* Services.framework */; };
+		D35650D220C59AA100158298 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D35650CE20C59A7300158298 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D35650D720C5A04500158298 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35650D620C5A04500158298 /* Alamofire.framework */; };
+		D35650D820C5A04600158298 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D35650D620C5A04500158298 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +36,43 @@
 			remoteGlobalIDString = D356506F20C5991A00158298;
 			remoteInfo = Octomeow;
 		};
+		D35650CD20C59A7300158298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35650C820C59A7200158298 /* Services.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D35650AE20C599D700158298;
+			remoteInfo = Services;
+		};
+		D35650CF20C59A7300158298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35650C820C59A7200158298 /* Services.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D35650B720C599D700158298;
+			remoteInfo = ServicesTests;
+		};
+		D35650D320C59AA100158298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35650C820C59A7200158298 /* Services.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D35650AD20C599D700158298;
+			remoteInfo = Services;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D35650D520C59AA200158298 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D35650D220C59AA100158298 /* Services.framework in Embed Frameworks */,
+				D35650D820C5A04600158298 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D356507020C5991A00158298 /* Octomeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octomeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +89,8 @@
 		D356509220C5991D00158298 /* OctomeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctomeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356509620C5991D00158298 /* OctomeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctomeowUITests.swift; sourceTree = "<group>"; };
 		D356509820C5991D00158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35650C820C59A7200158298 /* Services.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Services.xcodeproj; path = Services/Services.xcodeproj; sourceTree = "<group>"; };
+		D35650D620C5A04500158298 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35650D120C59AA100158298 /* Services.framework in Frameworks */,
+				D35650D720C5A04500158298 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +123,8 @@
 		D356506720C5991A00158298 = {
 			isa = PBXGroup;
 			children = (
+				D35650D620C5A04500158298 /* Alamofire.framework */,
+				D35650C820C59A7200158298 /* Services.xcodeproj */,
 				D356507220C5991A00158298 /* Octomeow */,
 				D356508A20C5991D00158298 /* OctomeowTests */,
 				D356509520C5991D00158298 /* OctomeowUITests */,
@@ -128,6 +174,15 @@
 			path = OctomeowUITests;
 			sourceTree = "<group>";
 		};
+		D35650C920C59A7200158298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35650CE20C59A7300158298 /* Services.framework */,
+				D35650D020C59A7300158298 /* ServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +193,12 @@
 				D356506C20C5991A00158298 /* Sources */,
 				D356506D20C5991A00158298 /* Frameworks */,
 				D356506E20C5991A00158298 /* Resources */,
+				D35650D520C59AA200158298 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D35650D420C59AA100158298 /* PBXTargetDependency */,
 			);
 			name = Octomeow;
 			productName = Octomeow;
@@ -218,6 +275,12 @@
 			mainGroup = D356506720C5991A00158298;
 			productRefGroup = D356507120C5991A00158298 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D35650C920C59A7200158298 /* Products */;
+					ProjectRef = D35650C820C59A7200158298 /* Services.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D356506F20C5991A00158298 /* Octomeow */,
@@ -226,6 +289,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D35650CE20C59A7300158298 /* Services.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Services.framework;
+			remoteRef = D35650CD20C59A7300158298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D35650D020C59A7300158298 /* ServicesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ServicesTests.xctest;
+			remoteRef = D35650CF20C59A7300158298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D356506E20C5991A00158298 /* Resources */ = {
@@ -293,6 +373,11 @@
 			isa = PBXTargetDependency;
 			target = D356506F20C5991A00158298 /* Octomeow */;
 			targetProxy = D356509320C5991D00158298 /* PBXContainerItemProxy */;
+		};
+		D35650D420C59AA100158298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Services;
+			targetProxy = D35650D320C59AA100158298 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,7 +520,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Octomeow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.Octomeow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +542,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Octomeow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +555,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.Octomeow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
