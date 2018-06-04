@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D356507420C5991A00158298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356507320C5991A00158298 /* AppDelegate.swift */; };
+		D356507620C5991A00158298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356507520C5991A00158298 /* ViewController.swift */; };
+		D356507920C5991A00158298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356507720C5991A00158298 /* Main.storyboard */; };
+		D356507C20C5991A00158298 /* Octomeow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D356507A20C5991A00158298 /* Octomeow.xcdatamodeld */; };
+		D356507E20C5991D00158298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D356507D20C5991D00158298 /* Assets.xcassets */; };
+		D356508120C5991D00158298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356507F20C5991D00158298 /* LaunchScreen.storyboard */; };
+		D356508C20C5991D00158298 /* OctomeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356508B20C5991D00158298 /* OctomeowTests.swift */; };
+		D356509720C5991D00158298 /* OctomeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356509620C5991D00158298 /* OctomeowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D356508820C5991D00158298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D356506820C5991A00158298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D356506F20C5991A00158298;
+			remoteInfo = Octomeow;
+		};
+		D356509320C5991D00158298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D356506820C5991A00158298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D356506F20C5991A00158298;
+			remoteInfo = Octomeow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D356507020C5991A00158298 /* Octomeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octomeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D356507320C5991A00158298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D356507520C5991A00158298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D356507820C5991A00158298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D356507B20C5991A00158298 /* Octomeow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Octomeow.xcdatamodel; sourceTree = "<group>"; };
+		D356507D20C5991D00158298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D356508020C5991D00158298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D356508220C5991D00158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D356508720C5991D00158298 /* OctomeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctomeowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D356508B20C5991D00158298 /* OctomeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctomeowTests.swift; sourceTree = "<group>"; };
+		D356508D20C5991D00158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D356509220C5991D00158298 /* OctomeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctomeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D356509620C5991D00158298 /* OctomeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctomeowUITests.swift; sourceTree = "<group>"; };
+		D356509820C5991D00158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D356506D20C5991A00158298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356508420C5991D00158298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356508F20C5991D00158298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D356506720C5991A00158298 = {
+			isa = PBXGroup;
+			children = (
+				D356507220C5991A00158298 /* Octomeow */,
+				D356508A20C5991D00158298 /* OctomeowTests */,
+				D356509520C5991D00158298 /* OctomeowUITests */,
+				D356507120C5991A00158298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D356507120C5991A00158298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D356507020C5991A00158298 /* Octomeow.app */,
+				D356508720C5991D00158298 /* OctomeowTests.xctest */,
+				D356509220C5991D00158298 /* OctomeowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D356507220C5991A00158298 /* Octomeow */ = {
+			isa = PBXGroup;
+			children = (
+				D356507320C5991A00158298 /* AppDelegate.swift */,
+				D356507520C5991A00158298 /* ViewController.swift */,
+				D356507720C5991A00158298 /* Main.storyboard */,
+				D356507D20C5991D00158298 /* Assets.xcassets */,
+				D356507F20C5991D00158298 /* LaunchScreen.storyboard */,
+				D356508220C5991D00158298 /* Info.plist */,
+				D356507A20C5991A00158298 /* Octomeow.xcdatamodeld */,
+			);
+			path = Octomeow;
+			sourceTree = "<group>";
+		};
+		D356508A20C5991D00158298 /* OctomeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				D356508B20C5991D00158298 /* OctomeowTests.swift */,
+				D356508D20C5991D00158298 /* Info.plist */,
+			);
+			path = OctomeowTests;
+			sourceTree = "<group>";
+		};
+		D356509520C5991D00158298 /* OctomeowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D356509620C5991D00158298 /* OctomeowUITests.swift */,
+				D356509820C5991D00158298 /* Info.plist */,
+			);
+			path = OctomeowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D356506F20C5991A00158298 /* Octomeow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D356509B20C5991D00158298 /* Build configuration list for PBXNativeTarget "Octomeow" */;
+			buildPhases = (
+				D356506C20C5991A00158298 /* Sources */,
+				D356506D20C5991A00158298 /* Frameworks */,
+				D356506E20C5991A00158298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octomeow;
+			productName = Octomeow;
+			productReference = D356507020C5991A00158298 /* Octomeow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D356508620C5991D00158298 /* OctomeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D356509E20C5991D00158298 /* Build configuration list for PBXNativeTarget "OctomeowTests" */;
+			buildPhases = (
+				D356508320C5991D00158298 /* Sources */,
+				D356508420C5991D00158298 /* Frameworks */,
+				D356508520C5991D00158298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D356508920C5991D00158298 /* PBXTargetDependency */,
+			);
+			name = OctomeowTests;
+			productName = OctomeowTests;
+			productReference = D356508720C5991D00158298 /* OctomeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D356509120C5991D00158298 /* OctomeowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35650A120C5991D00158298 /* Build configuration list for PBXNativeTarget "OctomeowUITests" */;
+			buildPhases = (
+				D356508E20C5991D00158298 /* Sources */,
+				D356508F20C5991D00158298 /* Frameworks */,
+				D356509020C5991D00158298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D356509420C5991D00158298 /* PBXTargetDependency */,
+			);
+			name = OctomeowUITests;
+			productName = OctomeowUITests;
+			productReference = D356509220C5991D00158298 /* OctomeowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D356506820C5991A00158298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Natthawut Haematulin";
+				TargetAttributes = {
+					D356506F20C5991A00158298 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					D356508620C5991D00158298 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D356506F20C5991A00158298;
+					};
+					D356509120C5991D00158298 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D356506F20C5991A00158298;
+					};
+				};
+			};
+			buildConfigurationList = D356506B20C5991A00158298 /* Build configuration list for PBXProject "Octomeow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D356506720C5991A00158298;
+			productRefGroup = D356507120C5991A00158298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D356506F20C5991A00158298 /* Octomeow */,
+				D356508620C5991D00158298 /* OctomeowTests */,
+				D356509120C5991D00158298 /* OctomeowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D356506E20C5991A00158298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D356508120C5991D00158298 /* LaunchScreen.storyboard in Resources */,
+				D356507E20C5991D00158298 /* Assets.xcassets in Resources */,
+				D356507920C5991A00158298 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356508520C5991D00158298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356509020C5991D00158298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D356506C20C5991A00158298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D356507620C5991A00158298 /* ViewController.swift in Sources */,
+				D356507420C5991A00158298 /* AppDelegate.swift in Sources */,
+				D356507C20C5991A00158298 /* Octomeow.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356508320C5991D00158298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D356508C20C5991D00158298 /* OctomeowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356508E20C5991D00158298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D356509720C5991D00158298 /* OctomeowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D356508920C5991D00158298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D356506F20C5991A00158298 /* Octomeow */;
+			targetProxy = D356508820C5991D00158298 /* PBXContainerItemProxy */;
+		};
+		D356509420C5991D00158298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D356506F20C5991A00158298 /* Octomeow */;
+			targetProxy = D356509320C5991D00158298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D356507720C5991A00158298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D356507820C5991A00158298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D356507F20C5991D00158298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D356508020C5991D00158298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D356509920C5991D00158298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D356509A20C5991D00158298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D356509C20C5991D00158298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Octomeow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.Octomeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D356509D20C5991D00158298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Octomeow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.Octomeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D356509F20C5991D00158298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OctomeowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.OctomeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octomeow.app/Octomeow";
+			};
+			name = Debug;
+		};
+		D35650A020C5991D00158298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OctomeowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.OctomeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octomeow.app/Octomeow";
+			};
+			name = Release;
+		};
+		D35650A220C5991D00158298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OctomeowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.OctomeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Octomeow;
+			};
+			name = Debug;
+		};
+		D35650A320C5991D00158298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OctomeowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natthawut-Haematulin.OctomeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Octomeow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D356506B20C5991A00158298 /* Build configuration list for PBXProject "Octomeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D356509920C5991D00158298 /* Debug */,
+				D356509A20C5991D00158298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D356509B20C5991D00158298 /* Build configuration list for PBXNativeTarget "Octomeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D356509C20C5991D00158298 /* Debug */,
+				D356509D20C5991D00158298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D356509E20C5991D00158298 /* Build configuration list for PBXNativeTarget "OctomeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D356509F20C5991D00158298 /* Debug */,
+				D35650A020C5991D00158298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35650A120C5991D00158298 /* Build configuration list for PBXNativeTarget "OctomeowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35650A220C5991D00158298 /* Debug */,
+				D35650A320C5991D00158298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D356507A20C5991A00158298 /* Octomeow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D356507B20C5991A00158298 /* Octomeow.xcdatamodel */,
+			);
+			currentVersion = D356507B20C5991A00158298 /* Octomeow.xcdatamodel */;
+			path = Octomeow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D356506820C5991A00158298 /* Project object */;
+}
