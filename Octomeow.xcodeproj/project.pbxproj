@@ -19,25 +19,10 @@
 		D356508120C5991D00158298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356507F20C5991D00158298 /* LaunchScreen.storyboard */; };
 		D356508C20C5991D00158298 /* OctomeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356508B20C5991D00158298 /* OctomeowTests.swift */; };
 		D356509720C5991D00158298 /* OctomeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356509620C5991D00158298 /* OctomeowUITests.swift */; };
-		D35650D720C5A04500158298 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35650D620C5A04500158298 /* Alamofire.framework */; };
-		D35650D820C5A04600158298 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D35650D620C5A04500158298 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D37152A520C6EA40008E9709 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = D37152A220C6EA40008E9709 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D34E9BE120C64DC300524C49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D34E9BD520C64DC300524C49 /* Services.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D35650AE20C599D700158298;
-			remoteInfo = Services;
-		};
-		D34E9BE320C64DC300524C49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D34E9BD520C64DC300524C49 /* Services.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D35650B720C599D700158298;
-			remoteInfo = ServicesTests;
-		};
 		D356508820C5991D00158298 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D356506820C5991A00158298 /* Project object */;
@@ -55,13 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D35650D520C59AA200158298 /* Embed Frameworks */ = {
+		D37152D420C6F55E008E9709 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D35650D820C5A04600158298 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +53,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D34E9BD520C64DC300524C49 /* Services.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Services.xcodeproj; sourceTree = "<group>"; };
 		D34E9BD920C64DC300524C49 /* ServicesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
 		D34E9BDA20C64DC300524C49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D34E9BDC20C64DC300524C49 /* GithubAPIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIServices.swift; sourceTree = "<group>"; };
@@ -89,7 +72,7 @@
 		D356509220C5991D00158298 /* OctomeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctomeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356509620C5991D00158298 /* OctomeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctomeowUITests.swift; sourceTree = "<group>"; };
 		D356509820C5991D00158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D35650D620C5A04500158298 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D37152A220C6EA40008E9709 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35650D720C5A04500158298 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,20 +103,10 @@
 		D34E9BD420C64DC300524C49 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D34E9BD520C64DC300524C49 /* Services.xcodeproj */,
 				D34E9BD820C64DC300524C49 /* ServicesTests */,
 				D34E9BDB20C64DC300524C49 /* Services */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		D34E9BD620C64DC300524C49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D34E9BE220C64DC300524C49 /* Services.framework */,
-				D34E9BE420C64DC300524C49 /* ServicesTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D34E9BD820C64DC300524C49 /* ServicesTests */ = {
@@ -159,12 +131,13 @@
 		D356506720C5991A00158298 = {
 			isa = PBXGroup;
 			children = (
+				D37152A220C6EA40008E9709 /* Cartfile */,
 				D34E9BD420C64DC300524C49 /* Services */,
-				D35650D620C5A04500158298 /* Alamofire.framework */,
 				D356507220C5991A00158298 /* Octomeow */,
 				D356508A20C5991D00158298 /* OctomeowTests */,
 				D356509520C5991D00158298 /* OctomeowUITests */,
 				D356507120C5991A00158298 /* Products */,
+				D37152BA20C6F525008E9709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +183,13 @@
 			path = OctomeowUITests;
 			sourceTree = "<group>";
 		};
+		D37152BA20C6F525008E9709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,7 +200,7 @@
 				D356506C20C5991A00158298 /* Sources */,
 				D356506D20C5991A00158298 /* Frameworks */,
 				D356506E20C5991A00158298 /* Resources */,
-				D35650D520C59AA200158298 /* Embed Frameworks */,
+				D37152D420C6F55E008E9709 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,12 +281,6 @@
 			mainGroup = D356506720C5991A00158298;
 			productRefGroup = D356507120C5991A00158298 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D34E9BD620C64DC300524C49 /* Products */;
-					ProjectRef = D34E9BD520C64DC300524C49 /* Services.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D356506F20C5991A00158298 /* Octomeow */,
@@ -316,28 +290,12 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D34E9BE220C64DC300524C49 /* Services.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Services.framework;
-			remoteRef = D34E9BE120C64DC300524C49 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D34E9BE420C64DC300524C49 /* ServicesTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ServicesTests.xctest;
-			remoteRef = D34E9BE320C64DC300524C49 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		D356506E20C5991A00158298 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37152A520C6EA40008E9709 /* Cartfile in Resources */,
 				D34E9BE720C64DC300524C49 /* Info.plist in Resources */,
 				D356508120C5991D00158298 /* LaunchScreen.storyboard in Resources */,
 				D356507E20C5991D00158298 /* Assets.xcassets in Resources */,
@@ -548,6 +506,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Octomeow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -570,6 +529,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Octomeow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;

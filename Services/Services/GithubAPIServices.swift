@@ -9,3 +9,5 @@
 
 import Foundation
 import Alamofire
+
+let observable: Observable<String> = Observable()

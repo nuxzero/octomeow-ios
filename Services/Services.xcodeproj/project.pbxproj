@@ -12,6 +12,10 @@
 		D35650BF20C599D700158298 /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = D35650B120C599D700158298 /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D35650DB20C5A07300158298 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35650DA20C5A07300158298 /* Alamofire.framework */; };
 		D35650DD20C5A0CA00158298 /* GithubAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35650DC20C5A0CA00158298 /* GithubAPIServices.swift */; };
+		D37152AA20C6EC64008E9709 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37152A920C6EC64008E9709 /* RxCocoa.framework */; };
+		D37152B520C6F4DB008E9709 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37152B420C6F4DB008E9709 /* Realm.framework */; };
+		D37152B720C6F4DB008E9709 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37152B620C6F4DB008E9709 /* RealmSwift.framework */; };
+		D37152B920C6F4DB008E9709 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37152B820C6F4DB008E9709 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,10 @@
 		D35650BE20C599D700158298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35650DA20C5A07300158298 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D35650DC20C5A0CA00158298 /* GithubAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPIServices.swift; sourceTree = "<group>"; };
+		D37152A920C6EC64008E9709 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D37152B420C6F4DB008E9709 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		D37152B620C6F4DB008E9709 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		D37152B820C6F4DB008E9709 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37152B520C6F4DB008E9709 /* Realm.framework in Frameworks */,
+				D37152B720C6F4DB008E9709 /* RealmSwift.framework in Frameworks */,
+				D37152B920C6F4DB008E9709 /* RxSwift.framework in Frameworks */,
 				D35650DB20C5A07300158298 /* Alamofire.framework in Frameworks */,
+				D37152AA20C6EC64008E9709 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +108,11 @@
 		D35650D920C5A07300158298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D37152B420C6F4DB008E9709 /* Realm.framework */,
+				D37152B620C6F4DB008E9709 /* RealmSwift.framework */,
+				D37152B820C6F4DB008E9709 /* RxSwift.framework */,
 				D35650DA20C5A07300158298 /* Alamofire.framework */,
+				D37152A920C6EC64008E9709 /* RxCocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
